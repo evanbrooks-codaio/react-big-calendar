@@ -192,6 +192,7 @@ export class DateLocalizer {
     this.startAndEndAreDateOnly =
       spec.startAndEndAreDateOnly || startAndEndAreDateOnly
     this.segmentOffset = spec.browserTZOffset ? spec.browserTZOffset() : 0
+    // this.segmentOffset = 0
   }
 }
 
